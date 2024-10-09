@@ -1,12 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: rgb(255, 248, 238);
     overflow: auto;
 }
-.nav{
+
+.nav {
     height: 150px;
     display: flex;
     justify-content: flex-start;
@@ -14,28 +16,40 @@ body{
     background-color: rgb(169, 211, 225);
     border-radius: 10px;
 }
-.logo{
+
+.logo {
     height: 200px;
-    mix-blend-mode: darken; 
+    mix-blend-mode: darken;
 }
-.search{
+
+.search {
     border: 0px;
     font-size: 30px;
     height: 100px;
     width: 1500px;
     border-radius: 50px;
     padding: 20px;
+    background-color: white;
 }
-.navs{
+
+.navs {
     margin-left: 5vw;
     font-size: 40px;
     list-style: none;
 
 }
-li{
+
+li {
     margin: 40px;
+    list-style: none;
 }
-.cart{
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cart {
     border: 0px;
     display: inline-block;
     font-size: 30px;
@@ -45,10 +59,12 @@ li{
     background-color: rgb(129, 166, 231);
     margin-right: 15px;
 }
-.bg{
+
+.bg {
     width: 100%;
 }
-.content{
+
+.content {
     width: 1000px;
     height: 700px;
     position: absolute;
@@ -60,14 +76,17 @@ li{
     border-radius: 50px;
 
 }
-.FR{
+
+.FR {
     font-size: 120px;
-    
+
 }
-.text{
+
+.text {
     font-size: 50px;
 }
-.order{
+
+.order {
     border: 0px;
     margin-top: 50px;
     font-size: 50px;
@@ -77,25 +96,29 @@ li{
     background-color: rgb(88, 138, 224);
     color: white;
 }
-.special{
+
+.special {
     line-height: 100px;
     margin-top: 100px;
     display: flex;
     justify-content: center;
     font-size: 60px;
 }
-.try{
+
+.try {
     line-height: 80px;
     display: flex;
     justify-content: center;
     font-size: 30px;
     margin-bottom: 50px;
 }
-.flex{
+
+.flex {
     display: flex;
     justify-content: space-evenly
 }
-.card{
+
+.card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -104,24 +127,28 @@ li{
     box-shadow: 0px 0px 30px rgb(129, 127, 127);
     background-color: rgb(221, 238, 252);
     padding: 20px;
-    border-radius:25px ;
+    border-radius: 25px;
     width: 400px;
     height: 500px;
 }
-.pink{
+
+.pink {
     border-radius: 25px;
     width: 100%;
     height: 55%;
 }
-.name{
+
+.name {
     color: palevioletred;
     font-size: 25px;
 }
-.price{
+
+.price {
     color: palevioletred;
     font-size: 35px;
 }
-.btn{
+
+.btn {
     width: 180px;
     height: 50px;
     font-size: 25px;
@@ -129,13 +156,114 @@ li{
     border: 0px;
     border-radius: 25px;
 }
-.footer{
+
+.footer {
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     background-color: rgb(233, 186, 186);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+    font-size: 30px;
 }
-.card:hover{
+
+.card:hover {
     background-color: rgb(234, 253, 250);
-    transform: translateY(-40px)  scale(1.2);
-    transition: all 0.2s ease-in-out 0s  ;
+    transform: translateY(-40px) scale(1.2);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.bg-log {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+}
+
+.sign-in {
+    background-color: rgba(0, 0, 0, 0.438);
+    color: rgba(255, 255, 255, 0.801);
+    margin: 20vh;
+    position: relative;
+    border-radius: 35px;
+    width: 800px;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top {
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.next {
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+input {
+    background-color: rgba(0, 0, 0, 0.448);
+    width: 500px;
+    height: 80px;
+    border-radius: 40px;
+    padding-left: 40px;
+    font-size: 30px;
+    color: white;
+}
+
+.forgot {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.signbtn {
+    background-color: black;
+    opacity: 0.3;
+    color: white;
+    width: 200px;
+    min-height: 60px;
+    border-radius: 35px;
+    font-size: 30px;
+    margin-top: 20px
+}
+
+.new {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+hr {
+    margin-top: 50px;
+    width: 650px;
+}
+
+.signup {
+    color: white;
+}
+
+.f1 {
+    font-size: 50px;
+}
+
+.f2 {
+    font-size: 50px;
+}
+
+.f3 {
+    font-size: 50px;
+}
+
+.f4 {
+    font-size: 50px;
 }
