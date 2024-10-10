@@ -5,17 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delicious Cake & Bakery</title>
-
+    <link rel="icon" href="images/icon.jpg">
+    <link rel="stylesheet" href="fonts/css/webfonts/all.min.css">
     <link rel="stylesheet" href="Fonts1/stylesheet.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- this is navigation bar -->
     <nav>
         <div class="nav">
             <img class="logo" src="images/Logo.jpg" alt="brand logo">
-            <input class="search" type="search" placeholder="Search Your favourite flavour ">
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="searchICON">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <form action="post">
+                    <input class="search" type="search" placeholder="Search Your favourite flavour" autofocus />
+                </form>
+            </div>
             <ul class="nav navs">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="">24/7 Service</a></li>
@@ -24,7 +30,9 @@
             <button class="cart">CART</button>
         </div>
     </nav>
+    <!-- here start the main body of the Webpage -->
     <main>
+        <!--this is header section -->
         <section>
             <div>
                 <img class="bg" src="images/BG.jpg" alt="">
@@ -41,6 +49,7 @@
                 <div class="try">Try our most popular signature Cake & Cupcakes and taste the differnce</div>
             </div>
         </section>
+        <!-- this is all product/food section -->
         <section class="flex">
             <article>
                 <div class="card">
@@ -85,6 +94,7 @@
                 </div>
             </article>
         </section>
+        <!-- this is footer section -->
         <footer class="footer">
             <div class="policy">
                 <div class="f1">POLICY INFO</div>
