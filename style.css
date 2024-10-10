@@ -2,10 +2,28 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --BG: rgb(255, 248, 238);
+    --color: white;
+    --card-color: palevioletred;
+}
 
 body {
-    background-color: rgb(255, 248, 238);
+    background-color: var(--BG);
     overflow: auto;
+
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.font{
+        font-family: "Red Hat Text", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+ 
 }
 
 .nav {
@@ -29,24 +47,32 @@ body {
     width: 1500px;
     border-radius: 50px;
     padding: 20px;
-    background-color: white;
+    background-color: var(--color);
 }
 
 .navs {
     margin-left: 5vw;
-    font-size: 40px;
-    list-style: none;
+    font-size: 35px;
+}
 
+a:hover {
+    color: rgb(140, 140, 236);
 }
 
 li {
     margin: 40px;
     list-style: none;
+
+}
+
+button:hover {
+    background-color: rgb(68, 67, 124);
+
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: var(--color);
 }
 
 .cart {
@@ -94,7 +120,7 @@ a {
     height: 100px;
     border-radius: 30px;
     background-color: rgb(88, 138, 224);
-    color: white;
+    color: var(--color);
 }
 
 .special {
@@ -139,12 +165,12 @@ a {
 }
 
 .name {
-    color: palevioletred;
+    color: var(--card-color);
     font-size: 25px;
 }
 
 .price {
-    color: palevioletred;
+    color: var(--card-color);
     font-size: 35px;
 }
 
@@ -152,7 +178,7 @@ a {
     width: 180px;
     height: 50px;
     font-size: 25px;
-    color: palevioletred;
+    color: var(--card-color);
     border: 0px;
     border-radius: 25px;
 }
@@ -218,7 +244,7 @@ input {
     border-radius: 40px;
     padding-left: 40px;
     font-size: 30px;
-    color: white;
+    color: var(--color);
 }
 
 .forgot {
@@ -230,7 +256,7 @@ input {
 .signbtn {
     background-color: black;
     opacity: 0.3;
-    color: white;
+    color: var(--color);
     width: 200px;
     min-height: 60px;
     border-radius: 35px;
@@ -249,21 +275,25 @@ hr {
 }
 
 .signup {
-    color: white;
+    color: var(--color);
 }
 
 .f1 {
     font-size: 50px;
+    color: var(--color);
 }
 
 .f2 {
     font-size: 50px;
+    color: var(--color);
 }
 
 .f3 {
     font-size: 50px;
+    color: var(--color);
 }
 
 .f4 {
     font-size: 50px;
+    color: var(--color);
 }
